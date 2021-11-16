@@ -1,0 +1,19 @@
+cmake_minimum_version(VERSION <SOME VERSION>)
+
+This line checks that the CMake version is at least <SOME VERSION>. Its necessary but 
+the version can be anything lower or equal to the version you have in your system.
+
+
+project(<PROJECT NAME>)
+
+This is the name of our project or executable that will be created after running make.
+Generally they dont have any spaces in their name.
+
+
+add_executable(<PROJECT NAME> <SOME FILE>)
+
+This line adds the file <SOME FILE> to the project.
+It is important to note that the file <SOME FILE> must have the full path to the file 
+if the file is not in the same directory as the CMakeLists.txt file.
+
+
