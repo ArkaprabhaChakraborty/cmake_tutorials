@@ -1,4 +1,6 @@
 logs/
 getting_started/build
 
-libraries_and_subdirs/simple_stuffs_using_functions/build
+libraries_and_subdirs/simple_stuffs_using_functions/build/
+
+libraries_and_subdirs/using_functions_as_libraries/build/
